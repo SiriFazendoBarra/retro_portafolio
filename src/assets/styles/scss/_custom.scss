@@ -11,6 +11,18 @@ body {
     grid-template-columns: repeat(auto-fill, minmax(min(100%, 18rem), 1fr));
 }
 
+
+///////////////////// CARD
+.cards {
+    box-shadow: 0 0 10px 1px $black;
+    transition-duration: 0.2s;
+
+
+    &:hover {
+        box-shadow: 0 0 20px 1px $black ;
+    }
+}
+
 .card-img {
     image-rendering: pixelated;
     border: 4px solid black;
