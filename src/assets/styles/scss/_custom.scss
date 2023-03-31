@@ -1,0 +1,17 @@
+body {
+    font-family: 'Press Start 2P', cursive;
+
+    .App {
+        min-height: 100vh;
+    }
+}
+
+.portafolioSection {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(min(100%, 18rem), 1fr));
+}
+
+.card-img {
+    image-rendering: pixelated;
+    border: 4px solid black;
+}

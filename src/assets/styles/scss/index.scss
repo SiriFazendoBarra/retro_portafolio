@@ -1,0 +1,23 @@
+$primary: #9E4784;
+$secondary: #66347F;
+$dark: #37306B;
+$light: #D27685;
+
+$theme-colors: (
+    "primary": $primary,
+    "secondary":$secondary,
+    "light":$light,
+    "dark": $dark,
+    ) !default;
+
+
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap'
+);
+
+
+
+
+@import '../../../../node_modules/bootstrap/scss/bootstrap.scss';
+@import '../../../../node_modules/nes.css/css/nes.css';
+
+@import 'custom.scss';
