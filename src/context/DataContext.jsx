@@ -29,6 +29,8 @@ export default function DataProvider({ children }) {
     useEffect(() => {
         getData()
     }, [])
+    console.log(info)
+    console.log(portafolio)
 
 
     return (

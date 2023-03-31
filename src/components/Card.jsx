@@ -1,5 +1,4 @@
 export default function Card({ element }) {
-
     return (
         <div className="cards d-flex flex-column justify-content-between bg-primary text-black nes-container with-title">
             <h3 className="title bg-primary">{element.title}</h3>
