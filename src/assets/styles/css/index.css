@@ -10439,6 +10439,14 @@ body .App {
   grid-template-columns: repeat(auto-fill, minmax(min(100%, 18rem), 1fr));
 }
 
+.cards {
+  box-shadow: 0 0 10px 1px #000;
+  transition-duration: 0.2s;
+}
+.cards:hover {
+  box-shadow: 0 0 20px 1px #000;
+}
+
 .card-img {
   image-rendering: pixelated;
   border: 4px solid black;
