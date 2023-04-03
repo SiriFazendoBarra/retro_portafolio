@@ -10434,6 +10434,12 @@ body .App {
   min-height: 100vh;
 }
 
+.page {
+  padding-block: 3rem;
+  background: rgb(0, 0, 0);
+  background: radial-gradient(circle, rgb(0, 0, 0) 0%, rgb(55, 48, 107) 68%, rgb(55, 48, 107) 68%, rgba(102, 52, 127, 0.9388130252) 100%);
+}
+
 .portafolioSection {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(min(100%, 18rem), 1fr));
@@ -10442,6 +10448,7 @@ body .App {
 .cards {
   box-shadow: 0 0 10px 1px #000;
   transition-duration: 0.2s;
+  max-width: 18rem;
 }
 .cards:hover {
   box-shadow: 0 0 20px 1px #000;
@@ -10463,6 +10470,22 @@ body .App {
 
 .card-text {
   font-size: 14px;
+}
+
+.div-carousel-item {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(min(100%, 18rem), 1fr));
+}
+
+.cards-wrapper {
+  display: flex;
+}
+
+footer {
+  box-shadow: 0 0 20px 2px #000;
+}
+footer div {
+  min-height: 5rem;
 }
 
 /*# sourceMappingURL=index.css.map */

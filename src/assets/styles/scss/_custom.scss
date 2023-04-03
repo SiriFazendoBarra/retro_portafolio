@@ -6,6 +6,13 @@ body {
     }
 }
 
+.page {
+    padding-block: 3rem;
+    background: rgb(0, 0, 0);
+    background: radial-gradient(circle, rgba(0, 0, 0, 1) 0%, rgba(55, 48, 107, 1) 68%, rgba(55, 48, 107, 1) 68%, rgba(102, 52, 127, 0.938813025210084) 100%);
+}
+
+
 .portafolioSection {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(min(100%, 18rem), 1fr));
@@ -16,12 +23,12 @@ body {
 .cards {
     box-shadow: 0 0 10px 1px $black;
     transition-duration: 0.2s;
+    max-width: 18rem;
 
     &:hover {
         box-shadow: 0 0 20px 1px $black ;
     }
 }
-
 
 .title {
     height: 2rem;
@@ -39,4 +46,13 @@ body {
 
 .card-text {
     font-size: 14px;
+}
+
+.div-carousel-item {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(min(100%, 18rem), 1fr));
+}
+
+.cards-wrapper {
+    display: flex;
 }
